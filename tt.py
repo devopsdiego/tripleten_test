@@ -25,7 +25,7 @@ def csv_to_df(infile, headers = []):
 
     for r in range(10):
         try:
-            df.rename( columns={'Unnamed: {0}'.format(r):'Unnamed{0}'.format(r)},    inplace=True )
+            df.rename( columns={'Unnamed: {0}'.format(r):'Unnamed{0}'.format(r)}, inplace=True )
         except:
             pass
     return df
@@ -42,14 +42,6 @@ def dtype_mapping():
         'category' : 'TEXT',
         'timedelta[ns]' : 'TEXT'}
 
-'''
-Create a sqlalchemy engine
-'''
-#def mysql_engine(user, password, host, port, database):
-  #  engine = 'mysql+pymysql://' + user + ':' + password + '@' + host + ':' + port + '/' + database
- #   return engine
-
-#db_connection = create_engine(mysql_engine(user, password, host, port, database))
 
 '''
 Create a sqlalchemy engine
@@ -57,7 +49,6 @@ Create a sqlalchemy engine
 def mysql_engine(user = 'root', password = '', host = 'localhost', port = '3306', database = 'tripleten_test'):
     engine = create_engine("mysql+pymysql://{0}:{1}@{2}:{3}/{4}".format(user, password, host, port, database))
     return engine
-
 
 
 '''

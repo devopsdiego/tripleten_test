@@ -89,6 +89,7 @@ Write df data to newly create mysql table
 def df_to_mysql(df, engine, tbl_name):
     df.to_sql(tbl_name, engine, if_exists='replace')
     
-df = csv_to_df(infile)
+df = csv_to_df(infile).rename_axis('id')
+
 create_mysql_tbl_schema(df, mysql_conn(mysql_engine()), db_tbl_name)
 df_to_mysql(df, mysql_engine(), db_tbl_name)

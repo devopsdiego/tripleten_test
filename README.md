@@ -1,18 +1,22 @@
 # Tripleten test of Diego Richalski dos Santos
 
 ```sh
-To complete exercise 1: Task 1. Working with data, it took me 6 hours
+To complete exercise 1: Task 1. 
+Working with data, it took me 6 hours
 ```
 ```sh
-For the completion of exercise 2: Task 2. Problem-solving, it took me 8 hours. To be honest, I didn't know a way to work with a cohort. Soon I went to learn a little more about it.
+For the completion of exercise 2: Task 2. 
+Problem-solving, it took me 8 hours. 
+To be honest, I didn't know a way to work with a cohort. Soon I went to learn a little more about it.
 ```
 ```sh
-To complete exercise 3: Task 3. Answering student questions, it took me 15 minutes. I did it on google doc, follow the link:
-
+To complete exercise 3: Task 3. 
+Answering student questions, it took me 15 minutes. 
+I did it on google doc, follow the link:
 https://docs.google.com/document/d/1drcNTQhLwaM8o0D9LqLE7U9Nidx8ScCBjwBKYcuI9So/edit?usp=sharing
 ```
 ```sh
-For exercise 4. Frankly, I don't know how to do it. But studying a little I managed to come up with an answer. Yes, this answer was given by an artificial intelligence.
+For exercise 4. Frankly, I don\'t know how to do it. But studying a little I managed to come up with an answer. Yes, this answer was given by an artificial intelligence.
 
 To find the variance of the random variable Z = 2X - 3Y, we can use the properties of variance and covariance.
 First, let’s calculate the mean of Z: E(Z) = E(2X - 3Y) = 2E(X) - 3E(Y) = 2 * 0.5 - 3 * 7 = -18.5

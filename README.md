@@ -1,6 +1,8 @@
 # Tripleten test of Diego Richalski dos Santos
-To complete exercise 1: Task 1. Working with data, it took me 6 hours
 
+'''sh
+To complete exercise 1: Task 1. Working with data, it took me 6 hours
+'''
 For the completion of exercise 2: Task 2. Problem-solving, it took me 8 hours. To be honest, I didn't know a way to work with a cohort. Soon I went to learn a little more about it.
 
 To complete exercise 3: Task 3. Answering student questions, it took me 15 minutes. I did it on google doc, follow the link:
